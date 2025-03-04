@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FXTwins Academy - Learn to Trade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header with Navigation -->
+    <header>
+        <div class="logo">
+            <h1>FXTwins Academy</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to FXTwins Academy</h2>
+            <p>Master the Art of Trading with Expert Guidance and Courses</p>
+            <a href="#courses" class="cta-button">Start Learning Today</a>
+        </div>
+    </section>
+
+    <!-- Trading Chart Section -->
+    <section id="charts" class="charts">
+        <h2>Live Trading Chart</h2>
+        <div class="chart-container">
+            <!-- Embed TradingView chart -->
+            <iframe src="https://www.tradingview.com/embed-widget/market-overview/?symbol=FX:EURUSD" width="100%" height="600" frameborder="0"></iframe>
+        </div>
+    </section>
+
+    <!-- Trading Courses Section -->
+    <section id="courses" class="courses">
+        <h2>Our Trading Courses</h2>
+        <div class="course-cards">
+            <div class="card">
+                <h3>Forex Trading Basics</h3>
+                <p>Learn the fundamentals of forex trading and how to get started.</p>
+                <a href="#course-details" class="cta-button">See More</a>
+            </div>
+            <div class="card">
+                <h3>Advanced Trading Strategies</h3>
+                <p>Master advanced strategies used by top traders in the forex market.</p>
+                <a href="#course-details" class="cta-button">See More</a>
+            </div>
+            <div class="card">
+                <h3>Risk Management</h3>
+                <p>Understand how to manage risk effectively to protect your investments.</p>
+                <a href="#course-details" class="cta-button">See More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>What is Forex Trading?</h3>
+            <p>Forex trading involves buying and selling currencies to make a profit. It’s the largest and most liquid financial market in the world.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How do I get started with Forex Trading?</h3>
+            <p>Start by learning the basics with our introductory course, then move to more advanced strategies to enhance your trading skills.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Is Forex Trading risky?</h3>
+            <p>Yes, like any investment, forex trading involves risk. However, with the right knowledge and risk management strategies, you can mitigate it.</p>
+        </div>
+        <a href="#contact" class="cta-button">Contact Us for More Info</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About FXTwins Academy</h2>
+        <p>At FXTwins Academy, we aim to provide top-tier education in trading. Our goal is to help both beginners and experienced traders learn and succeed in the world of financial markets.</p>
+        <div class="about-image">
+            <img src="https://example.com/forex-students.jpg" alt="Students studying Forex">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions? Feel free to reach out to us for more information about our courses and services.</p>
+        <a href="mailto:info@fxtwinsacademy.com" class="cta-button">Email Us</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 FXTwins Academy | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
